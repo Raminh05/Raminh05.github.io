@@ -1,0 +1,6 @@
+/* Hasty solution to remove horizontal scroll bar in all pages except the home page */
+
+html, body {
+  overflow-x: hidden;
+}
+
