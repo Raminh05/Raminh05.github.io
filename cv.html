@@ -6,20 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>CV - Minh Nguyen</title>
     <meta name="description" content="Information regarding my volunteering experience, education, and hobbies. Essentially, an &quot;all about me&quot; page!">
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css?h=bc6e88d3ecb03ba4bdc8c098422fc485">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css?h=13def284d3f39b9d2387182800ff791d">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,700&amp;display=swap">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Courier+Prime&amp;display=swap">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fira+Code&amp;display=swap">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="assets/css/cvPage.css?h=afd22497c4dd67739a8acad23bd471fd">
+    <link rel="stylesheet" href="assets/css/footerAndNavbar.css?h=c498887b975199b0bbbaa3427bd31e77">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/css/pikaday.min.css">
     <link rel="stylesheet" href="assets/css/removeHorizontalScrollBar.css?h=f44a78273c223ac00fd021b18f1da926">
 </head>
 
 <body>
-    <nav class="navbar navbar-dark navbar-expand-lg fixed-top text-primary pulse animated portfolio-navbar gradient" id="mainNavbar" style="border-width: 0px;border-color: var(--bs-purple);background: var(--bs-orange);transition: top 0.3s;">
-        <div class="container"><a class="navbar-brand logo" href="#">Minh's Portfolio</a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navbarNav" data-bss-hover-animate="pulse" style="border: 2px solid var(--bs-light) ;"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+    <nav class="navbar navbar-dark navbar-expand-lg fixed-top text-primary pulse animated portfolio-navbar gradient" id="mainNavbar">
+        <div class="container"><a class="navbar-brand logo" href="#">Minh's Portfolio</a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navbarNav" data-bss-hover-animate="pulse"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
@@ -30,15 +32,15 @@
         </div>
     </nav>
     <main class="page cv-page">
-        <section class="portfolio-block block-intro border-bottom" style="background: url(&quot;assets/img/MacCompilingPython.webp?h=6a9715f5a188e67f19e97aaf4e5cba1b&quot;) left / cover, var(--bs-info);margin-top: -12px;margin-left: 0px;padding-left: 0px;padding-right: 0px;margin-right: 0px;color: var(--bs-white);">
+        <section id="cv-intro-background-pic" class="portfolio-block block-intro border-bottom">
             <div class="container">
-                <div class="avatar" style="background: url(&quot;assets/img/avatars/avatar.webp?h=20747bd80629b30477625d8daa6394a6&quot;) center / cover;border: 5px solid var(--bs-gray-100) ;"></div>
+                <div id="avatar-pic" class="avatar"></div>
                 <div class="about-me">
-                    <p class="pulse animated" style="color: var(--bs-white);background: rgba(96,145,239,0.95);border-style: none;border-color: var(--bs-blue);padding-top: 10px;padding-bottom: 10px;padding-left: 10px;padding-right: 10px;margin-bottom: 10px;">Hardworking and punctual Grade 12 student with a knack for<br> mathematics and technology. Seeking to apply technological fluency and<br> organization skills to where needed. Able to use both the MS Office suite and<br> Google's G-Suite for general word-processing, spreadsheets, and databases. Intermediate experience in the Python and Java programming languages with personal projects<br> to boot.<br></p>
+                    <p class="pulse animated" id="cv-intro-statement">Hardworking and punctual Grade 12 student with a knack for<br> mathematics and technology. Seeking to apply technological fluency and<br> organization skills to where needed. Able to use both the MS Office suite and<br> Google's G-Suite for general word-processing, spreadsheets, and databases. Intermediate experience in the Python and Java programming languages with personal projects<br> to boot.<br></p>
                 </div>
             </div>
         </section>
-        <section class="portfolio-block cv" style="border-color: var(--bs-orange);">
+        <section class="portfolio-block cv">
             <div class="container">
                 <div class="work-experience group">
                     <div class="heading">
@@ -98,7 +100,7 @@
                 <div style="padding-top: 0px;margin-top: 64px;">
                     <div class="row">
                         <div class="col-xl-11 col-xxl-6 offset-xl-1 offset-xxl-3">
-                            <figure class="figure"><img class="img-fluid figure-img" style="box-shadow: 0px 0px 8px;" loading="lazy" src="assets/img/RoboticsBuilding.webp?h=22526464c58ba2aff201635076c2ec60" alt="A picture of a robotic build session. We were building the driveshaft and base of the robot.">
+                            <figure class="figure"><img class="img-fluid figure-img" loading="lazy" src="assets/img/RoboticsBuilding.webp?h=22526464c58ba2aff201635076c2ec60" alt="A picture of a robotic build session. We were building the driveshaft and base of the robot.">
                                 <figcaption class="figure-caption text-center" style="margin-top: 10px;">Building the base and driveshaft of the robot with the team (July, 2022)</figcaption>
                             </figure>
                         </div>
@@ -172,34 +174,34 @@
                 </div>
                 <div class="hobbies group">
                     <div class="heading">
-                        <h2 class="text-center" style="margin-bottom: 0px;">Hobbies</h2>
+                        <h2 class="text-center">Hobbies</h2>
                     </div>
-                    <p class="text-center text-muted" style="padding-bottom: 45px;padding-top: 0px;margin-top: -47px;">I take pictures of things! I birdwatch! I swim! I corrupt Linux installs! And most importantly, I am an avid cookie clicker worshipper.</p>
+                    <p class="text-center text-muted" id="hobbies-intro">I take pictures of things! I birdwatch! I swim! I corrupt Linux installs! And most importantly, I am an avid cookie clicker worshipper.</p>
                     <div class="carousel slide" data-bs-ride="carousel" id="carousel-1" style="box-shadow: 0px 0px;">
                         <div class="carousel-inner">
                             <div class="carousel-item active">
-                                <figure class="figure">
-                                    <figcaption class="figure-caption text-center" style="padding-bottom: 10px;">A picture of the snow on a tree branch that I took in January, 2022. Shot on a Canon Kiss X3.</figcaption><img class="img-fluid figure-img" alt="A pretty picture of snow on a tree branch that I took" src="assets/img/IMG_0052.webp?h=d98da02f4064e18bb974f47c8c369e85">
+                                <figure class="figure"><img class="img-fluid figure-img" alt="A pretty picture of snow on a tree branch that I took" src="assets/img/IMG_0052.webp?h=d98da02f4064e18bb974f47c8c369e85">
+                                    <figcaption class="figure-caption text-center" style="padding-bottom: 10px;">A picture of the snow on a tree branch that I took in January, 2022. Shot on a Canon Kiss X3.</figcaption>
                                 </figure>
                             </div>
                             <div class="carousel-item">
-                                <figure class="figure">
-                                    <figcaption class="figure-caption text-center" style="padding-top: 0px;margin-top: 0px;margin-bottom: 10px;">A picture of a Red Tailed Hawk shot on the quality camera that is known as the iPhone 8.</figcaption><img class="img-fluid figure-img" src="assets/img/Birb.webp?h=1db43a80d65b4b3088505443a021f010" alt="Red Tail Hawk on the quality iPhone SE camera" style="padding-bottom: 0px;">
+                                <figure class="figure"><img class="img-fluid figure-img" src="assets/img/Birb.webp?h=1db43a80d65b4b3088505443a021f010" alt="Red Tail Hawk on the quality iPhone SE camera">
+                                    <figcaption class="figure-caption text-center">A picture of a Red Tailed Hawk shot on the quality camera that is known as the iPhone 8.</figcaption>
                                 </figure>
                             </div>
                             <div class="carousel-item">
-                                <figure class="figure">
-                                    <figcaption class="figure-caption text-center" style="margin-bottom: 10px;">"sudo rm -rf /my_problems"</figcaption><img class="img-fluid figure-img" alt="A picture of me trying to diagnose computer problems" src="assets/img/ComputerTroubles.webp?h=846c303c7ac043e7d495eebd063b23ca">
+                                <figure class="figure"><img class="img-fluid figure-img" alt="A picture of me trying to diagnose computer problems" src="assets/img/ComputerTroubles.webp?h=846c303c7ac043e7d495eebd063b23ca">
+                                    <figcaption class="figure-caption text-center">"sudo rm -rf /my_problems"</figcaption>
                                 </figure>
                             </div>
                             <div class="carousel-item">
-                                <figure class="figure">
-                                    <figcaption class="figure-caption text-center" style="margin-bottom: 10px;">Monitoring the stocks 24/7</figcaption><img class="img-fluid figure-img" alt="A screenshot of my cookie clicker addiction." src="assets/img/CookieClickerCult.webp?h=8f2b89c99f203734966b8b6de26664a5">
+                                <figure class="figure"><img class="img-fluid figure-img" alt="A screenshot of my cookie clicker addiction." src="assets/img/CookieClickerCult.webp?h=8f2b89c99f203734966b8b6de26664a5">
+                                    <figcaption class="figure-caption text-center">Monitoring the stocks 24/7</figcaption>
                                 </figure>
                             </div>
                         </div>
                         <div style="padding-bottom: 0px;"><a class="carousel-control-prev" href="#carousel-1" role="button" data-bs-slide="prev"><span class="carousel-control-prev-icon"></span><span class="visually-hidden">Previous</span></a><a class="carousel-control-next" href="#carousel-1" role="button" data-bs-slide="next"><span class="carousel-control-next-icon"></span><span class="visually-hidden">Next</span></a></div>
-                        <ol class="carousel-indicators" style="margin-bottom: 29px;">
+                        <ol class="carousel-indicators">
                             <li data-bs-target="#carousel-1" data-bs-slide-to="0" class="active"></li>
                             <li data-bs-target="#carousel-1" data-bs-slide-to="1"></li>
                             <li data-bs-target="#carousel-1" data-bs-slide-to="2"></li>
@@ -243,14 +245,14 @@
     <footer data-aos="fade" class="page-footer">
         <div class="container">
             <div class="links"><a href="cv.html">About me</a><a href="contact.html">Contact me</a><a href="projects-grid-cards.html">Projects</a></div>
-            <p style="margin-bottom: 0px;padding-top: 0px;margin-top: 20px;">Copyright&nbsp;<strong><span style="color: rgb(32, 33, 34); background-color: rgb(253, 253, 253);">© </span></strong><span style="color: rgb(32, 33, 34); background-color: rgb(253, 253, 253);">2022 Minh Nguyen</span></p>
-            <div class="social-icons" style="padding-top: 0px;margin-top: 8px;"><a href="https://github.com/Raminh05" style="background: var(--bs-orange);" aria-label="My GitHub Profile!"><i class="icon ion-social-github"></i></a><a href="https://www.instagram.com/binhminh.nguyen05/" style="background: var(--bs-orange);" target="_blank" aria-label="My Instagram Profile!"><i class="icon ion-social-instagram-outline"></i></a></div>
+            <p id="copyright-statement">Copyright&nbsp;<strong><span style="color: rgb(32, 33, 34); background-color: rgb(253, 253, 253);">© </span></strong><span style="color: rgb(32, 33, 34); background-color: rgb(253, 253, 253);">2022 Minh Nguyen</span></p>
+            <div class="social-icons"><a id="github-footer-icon" href="https://github.com/Raminh05" aria-label="My GitHub Profile!"><i class="icon ion-social-github"></i></a><a id="instagram-footer-icon" href="https://www.instagram.com/binhminh.nguyen05/" target="_blank" aria-label="My Instagram Profile!"><i class="icon ion-social-instagram-outline"></i></a></div>
         </div>
     </footer>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/js/bs-init.js?h=24804d9f086c199df97e5192a0a7f1b1"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="assets/js/bs-init.js?h=82bdc1ae226d53c31c9cd7b5a12fdafc"></script>
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
     <script src="assets/js/hideNavBar.js?h=ad955c478755049c9c37da215b42bdcb"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/pikaday.min.js"></script>

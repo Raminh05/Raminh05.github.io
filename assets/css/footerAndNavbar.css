@@ -1,0 +1,21 @@
+#copyright-statement {
+  margin-bottom: 0px;
+  padding-top: 0px;
+  margin-top: 20px;
+}
+
+#github-footer-icon {
+  background: var(--bs-orange);
+}
+
+#instagram-footer-icon {
+  background: var(--bs-orange);
+}
+
+#mainNavbar {
+  border-width: 0px;
+  border-color: var(--bs-purple);
+  background: var(--bs-orange);
+  transition: top 0.3s;
+}
+

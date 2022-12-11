@@ -1,0 +1,42 @@
+.figure-img {
+  border: 4px solid var(--bs-info);
+}
+
+#cv-intro-statement {
+  color: var(--bs-white);
+  background: rgba(96,145,239,0.95);
+  border-style: none;
+  border-color: var(--bs-blue);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-bottom: 10px;
+}
+
+#avatar-pic {
+  background: url("../../assets/img/avatars/avatar.webp?h=20747bd80629b30477625d8daa6394a6") center / cover;
+  border: 5px solid var(--bs-gray-100);
+}
+
+.figure-caption {
+  margin-bottom: 10px;
+}
+
+#hobbies-intro {
+  padding-bottom: 45px;
+  padding-top: 0px;
+  margin-top: -47px;
+  margin-bottom: -19px;
+}
+
+#cv-intro-background-pic {
+  background: url("../../assets/img/MacCompilingPython.webp?h=6a9715f5a188e67f19e97aaf4e5cba1b") left / cover, var(--bs-info);
+  margin-top: -12px;
+  margin-left: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-right: 0px;
+  color: var(--bs-white);
+}
+

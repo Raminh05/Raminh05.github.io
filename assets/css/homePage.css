@@ -1,0 +1,100 @@
+.portfolio-block.block-intro {
+  backdrop-filter: opacity(1) blur(0px);
+  filter: blur(0px) saturate(125%) sepia(0%);
+  opacity: 1;
+  margin-top: -40px;
+  padding-bottom: 345px;
+  box-shadow: 0px 0px 0px 0px rgb(0,0,0);
+  margin-right: 0px;
+  padding-left: 0px;
+  margin-left: -5px;
+  padding-right: 0px;
+}
+
+.auto-type {
+  color: var(--bs-orange);
+}
+
+#Name-intro {
+  color: rgb(255,255,255);
+  font-family: 'Fira Code', monospace;
+  font-size: 30px;
+}
+
+#Hello-World-Lolcat {
+  padding-bottom: 0px;
+  margin-bottom: 1px;
+  padding-top: 0px;
+  background: url("../../assets/img/Hello-World.png?h=542bb521304c8db817ce66d0b73dfe06");
+  margin-top: 285px;
+  border-style: none;
+  width: 100%;
+}
+
+.page.lanidng-page {
+  padding-right: 0px;
+  margin-right: 0px;
+  padding-left: 0px;
+  margin-left: 0px;
+}
+
+#projects-page-button {
+  color: var(--bs-gray-900);
+  border-color: var(--bs-yellow);
+  background: var(--bs-yellow);
+}
+
+#landing-page-github-button {
+  margin-top: 20px;
+  background: rgba(255,193,7,0);
+  color: var(--bs-primary);
+  border: 2px solid var(--bs-primary);
+}
+
+#want-to-see-more {
+  border-style: none;
+  background: var(--bs-info);
+  margin-top: 65px;
+}
+
+#projects-preview-row {
+  padding-top: 0px;
+  margin-top: 70px;
+  border: 3px none var(--bs-primary);
+}
+
+#pong-screenshot {
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  padding-top: 0px;
+}
+
+#hello-world-container {
+  margin-top: -42px;
+}
+
+#name-intro-container {
+  margin-top: 10px;
+}
+
+.special-skill-item p {
+  color: black;
+}
+
+.navbar-toggler {
+  border: 2px solid var(--bs-light);
+}
+
+.social-icons {
+  padding-top: 0px;
+  margin-top: 8px;
+}
+
+.card-title {
+  color: var(--bs-orange);
+}
+
+#want-to-see-more-text {
+  color: white;
+}
+
