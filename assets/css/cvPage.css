@@ -4,7 +4,6 @@
 
 #cv-intro-statement {
   color: var(--bs-white);
-  background: rgba(96,145,239,0.95);
   border-style: none;
   border-color: var(--bs-blue);
   padding-top: 10px;
@@ -31,12 +30,11 @@
 }
 
 #cv-intro-background-pic {
-  background: url("../../assets/img/MacCompilingPython.webp?h=6a9715f5a188e67f19e97aaf4e5cba1b") left / cover, var(--bs-info);
+  background: url("../../assets/img/MacCompilingPython.webp?h=6a9715f5a188e67f19e97aaf4e5cba1b") left / cover;
   margin-top: -12px;
   margin-left: 0px;
   padding-left: 0px;
   padding-right: 0px;
   margin-right: 0px;
-  color: var(--bs-white);
 }
 

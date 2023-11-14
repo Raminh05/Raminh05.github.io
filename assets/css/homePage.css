@@ -1,5 +1,6 @@
 .portfolio-block.block-intro {
   backdrop-filter: opacity(1) blur(0px);
+  -webkit-backdrop-filter: opacity(1) blur(0px);
   filter: blur(0px) saturate(125%) sepia(0%);
   opacity: 1;
   margin-top: -40px;
